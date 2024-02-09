@@ -18,6 +18,10 @@ header {
   align-items: center;
 }
 
+a {
+  text-decoration: none;
+}
+
 nav ul {
   list-style: none;
   padding: 0;
@@ -34,10 +38,6 @@ nav a {
   font-weight: bold;
 }
 
-section {
-  padding: 40px 0;
-}
-
 footer {
   background-color: #333;
   color: white;
@@ -50,4 +50,75 @@ footer {
   height: auto;
   display: block;
   margin: 0 auto;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-container .logo {
+  height: 80px;
+  margin-right: 10px;
+}
+
+.logo-container h1 {
+  color: white;
+}
+
+.social-icons a img {
+  width: 40px;
+  height: 40px;
+}
+
+.logo-with-header-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.language-option {
+  color: white;
+  font-size: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.search-input {
+  height: 24px;
+  padding: 0 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 0 5px;
+}
+
+.search-icon {
+  width: 24px;
+  margin: 0 10px 0 5px;
+}
+
+.nav-item {
+  cursor: pointer;
+}
+
+.clicked {
+  color: burlywood;
 }
