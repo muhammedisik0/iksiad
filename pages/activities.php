@@ -1,6 +1,6 @@
-<div id="activities" class="container">
-    <h1>Faaliyetler</h1>
-    <?php include 'reusable/long_text.php'; ?>
+<div id="activities">
+    <h2>Faaliyetler</h2>
+    <?php include 'reusable/long-text.php'; ?>
     <p>
         <?php echo $longLoremIpsumText; ?>
     </p>

@@ -1,5 +1,5 @@
-<div id="events">
-    <h2>Etkinlikler</h2>
+<div id="electrical-electronic">
+    <h2>Elektrik - Elektronik</h2>
     <?php include 'reusable/long-text.php'; ?>
     <p>
         <?php echo $longLoremIpsumText; ?>

@@ -1,6 +1,6 @@
-<div id="contact" class="container">
-    <h1>İletişim</h1>
-    <?php include 'reusable/long_text.php'; ?>
+<div id="contact">
+    <h2>İletişim</h2>
+    <?php include 'reusable/long-text.php'; ?>
     <p>
         <?php echo $longLoremIpsumText; ?>
     </p>

@@ -1,7 +1,7 @@
 <main class="custom-horizontal-padding py-3">
   <?php
   // Get the 'page' parameter from the URL
-  $page = isset($_GET['page']) ? $_GET['page'] : 'news';
+  $page = isset($_GET['page']) ? $_GET['page'] : 'home-page';
 
   // Define the path to the content file
   $contentFile = "pages/{$page}.php";

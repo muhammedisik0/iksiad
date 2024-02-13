@@ -4,20 +4,17 @@ body {
   padding: 0;
 }
 
+.custom-horizontal-padding {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
 .navbar-brand img {
-  width: 96px;
+  width: 72px;
 }
 
 .navbar-brand span {
-  font-size: 32px; 
-}
-
-.language-flag {
-  margin-left: 10px;
-}
-
-.language-flag img {
-  width: 32px; 
+  font-size: 24px;
 }
 
 .social-icon img {
@@ -29,19 +26,17 @@ body {
   height: auto;
 }
 
-.custom-horizontal-padding {
-  padding-left: 10%;
-  padding-right: 10%;
-}
-
-.navbar-nav li:hover a {
+.navbar-nav .nav-item .active {
   background-color: burlywood !important;
   color: #212529 !important;
 }
 
-.navbar-nav li a.active {
-  background-color: burlywood !important;
-  color: #212529 !important;
+.dropdown-menu {
+  display: none;
+}
+
+.nav-item:hover .dropdown-menu {
+  display: block;
 }
 
 .language-flag img {
@@ -53,4 +48,15 @@ body {
   height: auto;
 }
 
+.language-flag {
+  margin-left: 10px;
+}
 
+.language-flag img {
+  width: 32px;
+}
+
+.navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
+  background-color: #212529 !important;
+  color: white !important;
+}

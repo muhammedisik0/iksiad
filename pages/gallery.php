@@ -1,6 +1,6 @@
-<div id="gallery" class="container">
-    <h1>Galeri</h1>
-    <?php include 'reusable/long_text.php'; ?>
+<div id="gallery">
+    <h2>Galeri</h2>
+    <?php include 'reusable/long-text.php'; ?>
     <p>
         <?php echo $longLoremIpsumText; ?>
     </p>
