@@ -13,7 +13,8 @@
       </a>
       <ul class="dropdown-menu">
         <li><a class="dropdown-item corporate" href="?page=corporate/about">Hakkımızda</a></li>
-        <li><a class="dropdown-item corporate" href="?page=corporate/chairmen">Başkanlar</a></li>
+        <li><a class="dropdown-item corporate" href="?page=corporate/chairman">Başkan</a></li>
+        <li><a class="dropdown-item corporate" href="?page=corporate/council">Yönetim Kurulu</a></li>
         <li><a class="dropdown-item corporate" href="?page=corporate/members">Üyelerimiz</a></li>
         <li><a class="dropdown-item corporate" href="?page=corporate/member-feedback">Üye Görüşleri</a></li>
       </ul>

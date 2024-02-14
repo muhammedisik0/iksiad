@@ -64,3 +64,12 @@ body {
 .navbar-nav .nav-item {
   margin: 0 8px;
 }
+
+.img-container {
+  margin-bottom: 20px;
+}
+
+.img-container img {
+  width: 100px;
+  height: auto;
+}
