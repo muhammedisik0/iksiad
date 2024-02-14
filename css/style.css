@@ -10,7 +10,7 @@ body {
 }
 
 .navbar-brand img {
-  width: 72px;
+  width: 48px;
 }
 
 .navbar-brand span {
@@ -59,4 +59,9 @@ body {
 .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
   background-color: #212529 !important;
   color: white !important;
+}
+
+
+.navbar-nav .nav-item {
+  margin: 0 8px;
 }

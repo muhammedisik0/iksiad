@@ -1,21 +1,23 @@
 document.addEventListener("DOMContentLoaded", function () {
   new Splide("#image-carousel").mount();
 
-  const navLinks = document.querySelectorAll(".nav-link");
+  const homePageNavEl = document.getElementById("home-page");
   if (window.location.href === "http://localhost/iksiad/index.php") {
-    navLinks[0].classList.add("active");
-    navLinks[0].setAttribute("aria-current", "page");
+    homePageNavEl.classList.add("active");
+    homePageNavEl.setAttribute("aria-current", "page");
   }
+
+  const trFlag = document.getElementById("tr-flag");
+  trFlag.classList.add("clicked");
 });
 
-document.querySelectorAll(".language-flag").forEach(function (element) {
-  element.addEventListener("click", function () {
-    languageFlags.forEach(function (flag) {
-      flag.classList.remove("clicked");
-    });
-    element.classList.add("clicked");
-  });
-});
+const languageFlags = document.querySelectorAll(".language-flag");
+languageFlags.forEach((flag) =>
+  flag.addEventListener("click", () => {
+    languageFlags.forEach((f) => f.classList.remove("clicked"));
+    flag.classList.add("clicked");
+  })
+);
 
 document.querySelectorAll(".nav-link").forEach((link) => {
   if (window.location.href === link.href) {
@@ -23,3 +25,21 @@ document.querySelectorAll(".nav-link").forEach((link) => {
     link.setAttribute("aria-current", "page");
   }
 });
+
+const corporateNavEl = document.getElementById("corporate");
+document.querySelectorAll(".dropdown-menu .corporate").forEach(function (link) {
+  if (window.location.href === link.href) {
+    corporateNavEl.classList.add("active");
+    corporateNavEl.setAttribute("aria-current", "page");
+  }
+});
+
+const industriesNavEl = document.getElementById("industries");
+document
+  .querySelectorAll(".dropdown-menu .industries")
+  .forEach(function (link) {
+    if (window.location.href === link.href) {
+      industriesNavEl.classList.add("active");
+      industriesNavEl.setAttribute("aria-current", "page");
+    }
+  });
