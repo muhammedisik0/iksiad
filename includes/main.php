@@ -1,4 +1,4 @@
-<main class="custom-horizontal-padding py-3">
+<main class="custom-horizontal-padding my-3">
   <?php
   // Get the 'page' parameter from the URL
   $page = isset($_GET['page']) ? $_GET['page'] : 'home-page';

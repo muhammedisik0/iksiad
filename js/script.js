@@ -1,14 +1,13 @@
 document.addEventListener("DOMContentLoaded", function () {
-  new Splide("#image-carousel").mount()
-  highlightHomePageNavEl()
-  highlightFlag()
-})
+  new Splide("#image-carousel").mount();
+  highlightHomePageNavEl();
+  highlightFlag();
+});
 
-highlightNavElements()
-highlightCorporateNavEl()
-highlightIndustriesNavEl()
-selectFlag()
-
+highlightNavElements();
+highlightCorporateNavEl();
+highlightIndustriesNavEl();
+selectFlag();
 
 function highlightHomePageNavEl() {
   const homePageNavEl = document.getElementById("home-page");

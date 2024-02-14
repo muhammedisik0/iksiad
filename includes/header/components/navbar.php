@@ -5,7 +5,7 @@
   </a>
   <ul class="navbar-nav">
     <li class="nav-item">
-      <a class="nav-link text-white" id="home-page" aria-current="page" href="?page=home-page">Ana Sayfa</a>
+      <a class="nav-link text-white" id="home-page" aria-current="page" href="?page=home-page">Anasayfa</a>
     </li>
     <li class="nav-item dropdown">
       <a class="nav-link text-white" href="#" id="corporate">
