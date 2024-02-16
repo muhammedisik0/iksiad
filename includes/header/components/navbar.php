@@ -13,13 +13,12 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link text-white px-2" id="home-page" aria-current="page" href="?page=home-page">Anasayfa</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link text-white px-2" href="#" id="corporate">
+          <a class="nav-link dropdown-toggle text-white px-2" href="#" id="corporate">
             Kurumsal
           </a>
           <ul class="dropdown-menu">
@@ -30,7 +29,7 @@
           </ul>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link text-white px-2" href="#" id="industries">
+          <a class="nav-link dropdown-toggle text-white px-2" href="#" id="industries">
             Sektörler
           </a>
           <ul class="dropdown-menu">
