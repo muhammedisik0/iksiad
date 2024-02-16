@@ -15,10 +15,10 @@
 
 
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item m-0">
+        <li class="nav-item">
           <a class="nav-link text-white px-2" id="home-page" aria-current="page" href="?page=home-page">Anasayfa</a>
         </li>
-        <li class="nav-item dropdown m-0">
+        <li class="nav-item dropdown">
           <a class="nav-link text-white px-2" href="#" id="corporate">
             Kurumsal
           </a>
@@ -27,10 +27,9 @@
             <li><a class="dropdown-item corporate" href="?page=corporate/chairman">Başkan</a></li>
             <li><a class="dropdown-item corporate" href="?page=corporate/council">Yönetim Kurulu</a></li>
             <li><a class="dropdown-item corporate" href="?page=corporate/members">Üyelerimiz</a></li>
-            <li><a class="dropdown-item corporate" href="?page=corporate/member-feedback">Üye Görüşleri</a></li>
           </ul>
         </li>
-        <li class="nav-item dropdown m-0">
+        <li class="nav-item dropdown">
           <a class="nav-link text-white px-2" href="#" id="industries">
             Sektörler
           </a>
@@ -43,16 +42,16 @@
             <li><a class="dropdown-item industries" href="?page=industries/textile-leather">Tekstil - Deri</a></li>
           </ul>
         </li>
-        <li class="nav-item m-0">
+        <li class="nav-item">
           <a class="nav-link text-white px-2" href="?page=activities">Faaliyetler</a>
         </li>
-        <li class="nav-item m-0">
+        <li class="nav-item">
           <a class="nav-link text-white px-2" href="?page=events">Etkinlikler</a>
         </li>
-        <li class="nav-item m-0">
+        <li class="nav-item">
           <a class="nav-link text-white px-2" href="?page=gallery">Galeri</a>
         </li>
-        <li class="nav-item m-0">
+        <li class="nav-item">
           <a class="nav-link text-white px-2" href="?page=contact">İletişim</a>
         </li>
       </ul>

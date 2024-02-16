@@ -1,7 +1,19 @@
 <div id="members">
     <h2>Üyelerimiz</h2>
-    <?php include 'reusable/long-text.php'; ?>
-    <p>
-        <?php echo $longLoremIpsumText; ?>
-    </p>
+
+    <div class="row">
+        <?php
+        // Loop to generate 18 members
+        for ($i = 1; $i <= 18; $i++) {
+            ?>
+            <div class="col-sm-3 text-center img-container">
+                <img src="img/person.png" class="img-fluid">
+                <p>Bilinmeyen Kişi
+                    <?php echo $i; ?>
+                </p>
+            </div>
+            <?php
+        }
+        ?>
+    </div>
 </div>
