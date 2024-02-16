@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark">
   <div class="container-fluid p-0">
 
-    <a class="navbar-brand text-white d-flex align-items-center p-0" id="logo" href="?page=home-page/home-page">
+    <a class="navbar-brand" id="logo" href="?page=home-page/home-page">
       <img src="img/logo-light.png">
     </a>
 
