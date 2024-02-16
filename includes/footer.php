@@ -30,8 +30,7 @@
     <!-- Logo -->
     <div class="text-center mb-2">
       <div class="navbar-brand text-white" id="logo">
-        <img class="me-2" src="img/logo-light.png" alt="Logo">
-        <span>İKSİAD</span>
+        <img class="me-2" src="img/logo.png" alt="Logo">
       </div>
     </div>
 

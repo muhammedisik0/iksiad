@@ -1,9 +1,8 @@
 <nav class="navbar navbar-expand-lg navbar-dark">
   <div class="container-fluid p-0">
 
-    <a class="navbar-brand text-white d-flex align-items-center p-0" id="logo" href="?page=home-page">
-      <img class="me-2" src="img/logo-light.png" alt="Logo">
-      <span>İKSİAD</span>
+    <a class="navbar-brand text-white d-flex align-items-center p-0" id="logo" href="?page=home-page/home-page">
+      <img class="me-2" src="img/logo.png">
     </a>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -15,7 +14,7 @@
 
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link text-white px-2" id="home-page" aria-current="page" href="?page=home-page">Anasayfa</a>
+          <a class="nav-link text-white px-2" id="home-page" aria-current="page" href="?page=home-page/home-page">Anasayfa</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle text-white px-2" href="#" id="corporate">
