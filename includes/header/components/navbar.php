@@ -2,7 +2,7 @@
   <div class="container-fluid p-0">
 
     <a class="navbar-brand text-white d-flex align-items-center p-0" id="logo" href="?page=home-page/home-page">
-      <img class="me-2" src="img/logo.png">
+      <img src="img/logo-light.png">
     </a>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
