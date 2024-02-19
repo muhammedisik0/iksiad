@@ -1,5 +1,5 @@
 <div id="members">
-    <h2>Üyelerimiz</h2>
+    <h2 class="text-center mb-4">Üyelerimiz</h2>
 
     <div class="row">
         <?php

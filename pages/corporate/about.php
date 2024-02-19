@@ -1,5 +1,5 @@
 <div id="about">
-    <h1>Hakkımızda</h1>
+    <h2>Hakkımızda</h2>
     <?php include 'reusable/long-text.php'; ?>
 
     <div class="row">

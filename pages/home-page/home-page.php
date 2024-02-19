@@ -4,7 +4,7 @@
         <?php include 'sections/news/news.php' ?>
     </div>
 
-    <div class="col-md-12 py-5 bg-dark text-white text-center custom-px-10">
+    <div class="col-md-12 py-5 text-center custom-px-10 bg-forest-green text-white">
         <?php include 'sections/about.php' ?>
     </div>
 
@@ -12,11 +12,12 @@
         <?php include 'sections/mission-vision.php' ?>
     </div>
 
-    <div class="col-md-12 py-5 bg-dark text-white text-center custom-px-10">
-        <?php include 'sections/member-companies.php' ?>
+    <div class="col-md-12 py-5 text-center custom-px-10 bg-dark-maroon text-white">
+        <?php include 'sections/by-the-numbers.php' ?>
     </div>
 
-    <div class="col-md-12" style="background-color: #ff4700; height: 1000px;">
+    <div class="col-md-12 py-5 text-center custom-px-10 ">
+        <?php include 'sections/member-companies.php' ?>
     </div>
 
 </div>

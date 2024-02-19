@@ -1,6 +1,6 @@
-<header class="bg-dark py-2 custom-px-10">
+<header>
   <div class="d-none d-md-block">
-    <?php include 'components/info.php' ?>
+    <?php include 'components/header-content.php' ?>
   </div>
   <?php include 'components/navbar.php' ?>
 </header>

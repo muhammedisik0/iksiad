@@ -1,4 +1,4 @@
-<footer class="bg-dark text-white py-4 custom-px-10">
+<footer class="bg-dark-maroon text-white py-4 custom-px-10">
 
   <div class="row mb-5">
     <!-- Quick Menu -->
