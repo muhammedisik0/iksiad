@@ -1,4 +1,4 @@
-<header class="bg-dark custom-horizontal-padding py-2">
+<header class="bg-dark py-2 custom-px-10">
   <div class="col">
     <div class="d-none d-md-block">
       <?php include 'components/info.php' ?>

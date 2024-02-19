@@ -8,11 +8,11 @@
 
   // Check if the content file exists
   if (file_exists($contentFile)) {
-    // Include the content file
+    echo ($page !== 'home-page/home-page') ? '<div class="custom-px-10">' : '<div>';
     include $contentFile;
+    echo '</div>';
   } else {
-    // If the file doesn't exist, show a default message
-    echo '<div class="container">Section not found.</div>';
+    echo '<div>Section not found.</div>';
   }
   ?>
 </main>
