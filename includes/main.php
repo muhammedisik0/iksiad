@@ -1,4 +1,4 @@
-<main>
+<main class="py-3">
   <?php
   // Get the 'page' parameter from the URL
   $page = isset($_GET['page']) ? $_GET['page'] : 'home-page/home-page';
