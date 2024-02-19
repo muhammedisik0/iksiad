@@ -5,16 +5,15 @@
     </div>
 
     <div class="col-md-12 py-5 bg-dark text-white text-center custom-px-10">
-        <?php include 'sections/welcome.php' ?>
+        <?php include 'sections/about.php' ?>
     </div>
 
     <div class="col-md-12 py-5 text-center custom-px-10">
         <?php include 'sections/mission-vision.php' ?>
     </div>
 
-
-
-    <div class="col-md-12" style="background-color: #c54789; height: 450px;">
+    <div class="col-md-12 py-5 bg-dark text-white text-center custom-px-10">
+        <?php include 'sections/member-companies.php' ?>
     </div>
 
     <div class="col-md-12" style="background-color: #ff4700; height: 1000px;">
