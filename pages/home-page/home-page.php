@@ -1,11 +1,11 @@
 <div id="home-page">
 
-    <div class="col-md-12 py-5 custom-px-10">
-        <?php include 'sections/slider/slidable-items.php' ?>
+    <div class="col-md-12 py-5" style="background: #c6ecc6;">
+        <?php include 'sections/slider/image-carousel.php' ?>
     </div>
 
-    <div class="col-md-12 py-5 text-center custom-px-10 bg-dark-maroon text-white">
-        <?php include 'sections/news.php' ?>
+    <div class="col-md-12 py-5 text-center bg-dark-maroon text-white">
+        <?php include 'sections/news-carousel.php' ?>
     </div>
 
     <div class="col-md-12 py-5 text-center custom-px-10 bg-forest-green text-white">
