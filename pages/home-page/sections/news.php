@@ -1,11 +1,11 @@
-<!-- sections/news/news.php -->
+<div id="newsCarousel" class="carousel slide">
+    <h1>Haberler</h1>
 
-<div id="newsCarousel" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
-        <?php for ($i = 1; $i <= 9; $i += 3): ?>
-            <div class="carousel-item <?php echo $i === 1 ? 'active' : ''; ?>">
+        <?php for ($i = 0; $i < 8; $i += 3): ?>
+            <div class="carousel-item <?php echo $i === 0 ? 'active' : ''; ?>">
                 <div class="row">
-                    <?php for ($j = $i; $j <= $i + 2; $j++): ?>
+                    <?php for ($j = $i; $j <= $i + 2 && $j < 8; $j++): ?>
                         <div class="col-md-4 py-3">
                             <div class="card">
                                 <img src="https://via.placeholder.com/600x300" class="card-img-top" alt="News Image">
@@ -27,12 +27,15 @@
             </div>
         <?php endfor; ?>
     </div>
-    <a class="carousel-control-prev" href="#newsCarousel" role="button" data-slide="prev">
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#newsCarousel" data-bs-slide="prev"
+        style="left: -150px;">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#newsCarousel" role="button" data-slide="next">
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#newsCarousel" data-bs-slide="next"
+        style="right: -150px;">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
+        <span class="visually-hidden">Next</span>
+    </button>
 </div>
