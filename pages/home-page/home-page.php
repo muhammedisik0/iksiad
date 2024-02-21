@@ -1,7 +1,11 @@
 <div id="home-page">
 
     <div class="col-md-12 py-5 custom-px-10">
-        <?php include 'sections/news/news.php' ?>
+        <?php include 'sections/slider/slidable-items.php' ?>
+    </div>
+
+    <div class="col-md-12 py-5 text-center custom-px-10 bg-dark-maroon text-white">
+        <?php include 'sections/news.php' ?>
     </div>
 
     <div class="col-md-12 py-5 text-center custom-px-10 bg-forest-green text-white">
