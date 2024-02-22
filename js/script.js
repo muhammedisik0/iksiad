@@ -1,4 +1,12 @@
 document.addEventListener("DOMContentLoaded", function () {
+  new Splide("#news-carousel", {
+    perPage: 3,
+    breakpoints: {
+      640: {
+        perPage: 1,
+      },
+    },
+  }).mount();
 
   highlightHomePageNavEl();
   highlightFlag();
