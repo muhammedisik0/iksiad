@@ -1,6 +1,6 @@
 <div id="home-page">
 
-    <div class="col-md-12 py-5" style="background: #c6ecc6;">
+    <div class="col-md-12 py-5">
         <?php include 'sections/slider/image-carousel.php' ?>
     </div>
 

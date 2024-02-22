@@ -115,13 +115,13 @@ body {
 .carousel .carousel-control-next {
   top: 50%;
   transform: translateY(-50%);
-  width: 100px;
-  height: 100px;
+  width: 10%;
+  height: auto;
 }
 
 #imageCarousel .carousel-control-next,
 #imageCarousel .carousel-control-prev {
-  filter: invert(100%);
+  background-color: #009746;
 }
 
 .carousel .carousel-indicators button {
