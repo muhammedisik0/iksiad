@@ -17,6 +17,11 @@ function highlightHomePageNavEl() {
   }
 }
 
+function unhighlightHomePageNavEl() {
+  const homePageNavEl = document.getElementById("home-page");
+  homePageNavEl.classList.remove("active");
+}
+
 function highlightCorporateNavEl() {
   const corporateNavEl = document.getElementById("corporate");
 

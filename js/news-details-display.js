@@ -6,7 +6,8 @@ function handleReadMoreClicks() {
   readMoreButtons.forEach(function (button) {
     button.addEventListener("click", function () {
       var newsId = button.id;
-      loadNewsDetails(newsId);
+      displayNewsDetails(newsId);
+      unhighlightHomePageNavEl();
       window.history.pushState(
         { newsId: newsId },
         "",
@@ -16,7 +17,7 @@ function handleReadMoreClicks() {
   });
 }
 
-function loadNewsDetails(newsId) {
+function displayNewsDetails(newsId) {
   // Static content for demonstration
   var title = "Haber " + newsId;
   var content =
