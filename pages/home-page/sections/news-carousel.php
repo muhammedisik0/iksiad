@@ -2,10 +2,10 @@
     <h1>Haberler</h1>
 
     <div id="news-carousel" class="splide custom-px-10">
-        <div class="splide__track">
+        <div class="splide__track pb-5">
             <ul class="splide__list">
                 <?php for ($i = 0; $i < 9; $i++): ?>
-                    <li class="splide__slide mx-1 mb-5">
+                    <li class="splide__slide pe-2">
                         <div class="card">
                             <img src="https://via.placeholder.com/600x300" class="card-img-top" alt="News Image">
                             <div class="card-body">
