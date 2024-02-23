@@ -111,20 +111,3 @@ body {
   background-color: #009746;
 }
 
-.carousel .carousel-control-prev,
-.carousel .carousel-control-next {
-  top: 50%;
-  transform: translateY(-50%);
-  width: 10%;
-  height: auto;
-}
-
-#imageCarousel .carousel-control-next,
-#imageCarousel .carousel-control-prev {
-  background-color: #009746;
-}
-
-.carousel .carousel-indicators button {
-  width: 20px;
-  height: 4px;
-}
