@@ -43,3 +43,13 @@ function displayNewsDetails(newsId) {
   mainElement.innerHTML = ""; // Clear existing content
   mainElement.appendChild(containerDiv);
 }
+
+window.addEventListener("popstate", function (event) {
+  if (event.state && event.state.newsId) {
+    displayNewsDetails(event.state.newsId);
+    unhighlightHomePageNavEl();
+  } else {
+    window.location.href = "index.php"; // or the URL of your home page
+    window.location.reload();
+  }
+});
