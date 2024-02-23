@@ -1,10 +1,13 @@
 document.addEventListener("DOMContentLoaded", function () {
-  new Splide("#image-carousel").mount();
+  const imageCarousel = new Splide("#image-carousel");
+  imageCarousel.mount();
 
-  new Splide("#news-carousel", {
+  const newsCarousel = new Splide("#news-carousel", {
     perPage: 3,
     breakpoints: { 640: { perPage: 1 } },
-  }).mount();
+    pagination: boolean = true,
+  });
+  newsCarousel.mount();
 
   highlightHomePageNavEl();
   highlightFlag();

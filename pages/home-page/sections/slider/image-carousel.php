@@ -2,7 +2,7 @@
     <div class="splide__track">
         <ul class="splide__list">
             <?php for ($i = 0; $i < 9; $i++): ?>
-                <li class="splide__slide mx-1">
+                <li class="splide__slide">
                     <div class="card">
                         <a href="?page=home-page/sections/slider/contents/content" class="d-block w-100 mx-auto">
                             <img src="img/slidable-image.jpg" class="d-block w-100">
