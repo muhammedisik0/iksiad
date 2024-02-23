@@ -1,6 +1,6 @@
 <script src="js/carousel.js"></script>
 <script src="js/language-selection.js"></script>
-<script src="js/navbar-highlight.js"></script>
+<script src="js/navbar-items-highlight.js"></script>
 <script src="js/news-details-display.js"></script>
 <script src="js/main.js"></script>
 

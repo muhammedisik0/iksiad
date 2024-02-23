@@ -25,6 +25,10 @@ function unhighlightHomePageNavEl() {
 function highlightCorporateNavEl() {
   const corporateNavEl = document.getElementById("corporate");
 
+  corporateNavEl.addEventListener("click", function (event) {
+    event.preventDefault();
+  });
+
   document
     .querySelectorAll(".dropdown-menu .corporate")
     .forEach(function (link) {
@@ -38,6 +42,10 @@ function highlightCorporateNavEl() {
 
 function highlightIndustriesNavEl() {
   const industriesNavEl = document.getElementById("industries");
+
+  industriesNavEl.addEventListener("click", function (event) {
+    event.preventDefault();
+  });
 
   document
     .querySelectorAll(".dropdown-menu .industries")
