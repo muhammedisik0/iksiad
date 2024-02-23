@@ -4,16 +4,6 @@ document.addEventListener("DOMContentLoaded", function () {
   handleReadMoreClicks();
   highlightHomePageNavEl();
   highlightFlag();
-
-  window.addEventListener('popstate', function (event) {
-    // Check if there is a state object
-    if (event.state && event.state.newsId) {
-      // If there is a newsId in the state, load the news details
-      loadNewsDetails(event.state.newsId);
-    } else {
-      // If there is no state or newsId, load the default content (home page)
-    }
-  });
 });
 
 highlightNavElements();
