@@ -1,5 +1,5 @@
 <div class="d-flex justify-content-between align-items-center custom-px-10 py-3">
-    <a class="navbar-brand" id="logo" href="?page=home-page/home-page">
+    <a class="navbar-brand" id="logo" href="index.php">
         <img src="img/logo-dark.png">
     </a>
 

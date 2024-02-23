@@ -11,7 +11,7 @@
     <ul class="navbar-nav">
       <li class="nav-item">
         <a class="nav-link text-white px-4 py-3" id="home-page" aria-current="page"
-          href="?page=home-page/home-page">Anasayfa</a>
+          href="index.php">Anasayfa</a>
         <div class="divider"></div>
       </li>
       <li class="nav-item dropdown">
