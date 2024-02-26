@@ -16,9 +16,13 @@
                                     This is a sample news description. It can contain some information about the news or
                                     event. It can span multiple lines to provide more details.
                                 </p>
-                                <button class="btn btn-primary read-more-button" id="<?php echo $i + 1 ?>">
+
+                                <button class="btn btn-primary read-more-button"
+                                    onclick="window.location.href='article/<?php echo $i + 1 ?>'">
                                     Read More
                                 </button>
+
+                           
                             </div>
                         </div>
                     </li>

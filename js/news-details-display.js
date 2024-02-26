@@ -1,4 +1,4 @@
-function handleReadMoreClicks() {
+/*function handleReadMoreClicks() {
   const readMoreButtons = document.querySelectorAll(
     "#news-carousel .read-more-button"
   );
@@ -52,4 +52,4 @@ window.addEventListener("popstate", function (event) {
     window.location.href = "index.php"; // or the URL of your home page
     window.location.reload();
   }
-});
+});*/
