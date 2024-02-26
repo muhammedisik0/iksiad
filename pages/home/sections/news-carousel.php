@@ -18,7 +18,7 @@
                                 </p>
 
                                 <button class="btn btn-primary read-more-button"
-                                    onclick="window.location.href='article/<?php echo $i + 1 ?>'">
+                                    onclick="window.location.href='news?id=<?php echo $i + 1 ?>'">
                                     Read More
                                 </button>
                             </div>
