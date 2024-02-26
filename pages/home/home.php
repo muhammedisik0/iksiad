@@ -1,7 +1,7 @@
-<div id="home-page">
+<div id="home">
 
     <div class="col-md-12 py-5">
-        <?php include 'sections/slider/image-carousel.php' ?>
+        <?php include 'sections/image-carousel/image-carousel.php' ?>
     </div>
 
     <div class="col-md-12 py-5 text-center bg-dark-maroon text-white">

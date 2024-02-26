@@ -1,29 +1,17 @@
 <?php
-$articleId = $_GET['id'];
+// Get the article ID from the URL
+$articleID = isset($_GET['id']) ? $_GET['id'] : 1; // Default to 1 if not provided
 
-// Static news details for demonstration purposes
-$newsDetails = [
-    1 => [
-        'title' => 'Sample News Title 1',
-        'content' => 'This is the content of sample news article 1. It can contain some information about the news or event. It can span multiple lines to provide more details.',
-    ],
-    2 => [
-        'title' => 'Sample News Title 2',
-        'content' => 'This is the content of sample news article 2. It can contain some information about the news or event. It can span multiple lines to provide more details.',
-    ],
-    // Add more entries as needed
-];
+// Fetch and display news details based on the article ID
+$articleTitle = "Haber " . $articleID; // You can replace this with actual article data
+$articleContent = "This is the content of the article with ID " . $articleID;
+?>
 
-// Display the static news details
-if (isset($newsDetails[$articleId])) {
-    $article = $newsDetails[$articleId];
-    ?>
-
-    <div>
-        <h1><?php echo $article['title']; ?></h1>
-        <p><?php echo $article['content']; ?></p>
-    </div>
-
-<?php } else { ?>
-    <p>Article not found</p>
-<?php } ?>
+<div>
+    <h2>
+        <?php echo $articleTitle; ?>
+    </h2>
+    <p>
+        <?php echo $articleContent; ?>
+    </p>
+</div>

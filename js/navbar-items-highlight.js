@@ -1,6 +1,8 @@
 function highlightNavElements() {
   document.querySelectorAll(".nav-link").forEach((link) => {
     if (window.location.href === link.href) {
+      console.log(window.location.href);
+      console.log(link.href);
       link.classList.add("active");
       link.setAttribute("aria-current", "page");
       highlightFlag();
@@ -9,7 +11,7 @@ function highlightNavElements() {
 }
 
 function highlightHomePageNavEl() {
-  const homePageNavEl = document.getElementById("home-page");
+  const homePageNavEl = document.getElementById("home");
 
   if (window.location.href === "http://localhost/iksiad/index.php") {
     homePageNavEl.classList.add("active");
@@ -18,7 +20,7 @@ function highlightHomePageNavEl() {
 }
 
 function unhighlightHomePageNavEl() {
-  const homePageNavEl = document.getElementById("home-page");
+  const homePageNavEl = document.getElementById("home");
   homePageNavEl.classList.remove("active");
 }
 

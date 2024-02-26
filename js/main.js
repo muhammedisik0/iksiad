@@ -9,4 +9,3 @@ highlightNavElements();
 highlightCorporateNavEl();
 highlightIndustriesNavEl();
 selectFlag();
-handleReadMoreClicks();

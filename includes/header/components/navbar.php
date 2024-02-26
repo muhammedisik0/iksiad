@@ -10,7 +10,7 @@
 
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link text-white px-4 py-3" id="home-page" aria-current="page"
+        <a class="nav-link text-white px-4 py-3" id="home" aria-current="page"
           href="index.php">Anasayfa</a>
         <div class="divider"></div>
       </li>

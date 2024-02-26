@@ -21,8 +21,6 @@
                                     onclick="window.location.href='article/<?php echo $i + 1 ?>'">
                                     Read More
                                 </button>
-
-                           
                             </div>
                         </div>
                     </li>
