@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg p-0 bg-dark-maroon">
+<nav class="navbar sticky-top navbar-expand-lg p-0 bg-dark-maroon">
 
   <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
