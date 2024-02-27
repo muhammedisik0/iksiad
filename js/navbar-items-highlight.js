@@ -1,8 +1,6 @@
 function highlightNavElements() {
   document.querySelectorAll(".nav-link").forEach((link) => {
     if (window.location.href === link.href) {
-      console.log(window.location.href);
-      console.log(link.href);
       link.classList.add("active");
       link.setAttribute("aria-current", "page");
       highlightFlag();
@@ -19,10 +17,10 @@ function highlightHomePageNavEl() {
   }
 }
 
-function unhighlightHomePageNavEl() {
+/*function unhighlightHomePageNavEl() {
   const homePageNavEl = document.getElementById("home");
   homePageNavEl.classList.remove("active");
-}
+}*/
 
 function highlightCorporateNavEl() {
   const corporateNavEl = document.getElementById("corporate");

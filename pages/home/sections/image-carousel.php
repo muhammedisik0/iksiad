@@ -4,7 +4,7 @@
             <?php for ($i = 0; $i < 9; $i++): ?>
                 <li class="splide__slide">
                     <div class="card">
-                        <a href="?page=home/sections/image-carousel/contents/content" class="d-block w-100 mx-auto">
+                        <a href="#" class="d-block w-100 mx-auto">
                             <img src="img/slidable-image.jpg" class="d-block w-100">
                         </a>
                         <div class="carousel-caption d-none d-md-block">

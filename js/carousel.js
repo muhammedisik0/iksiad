@@ -10,3 +10,11 @@ function mountNewsCarousel() {
   });
   newsCarousel.mount();
 }
+
+function preventDefaultForImageCarouselLinks() {
+  document.querySelectorAll("#image-carousel a").forEach(function (link) {
+    link.addEventListener("click", function (event) {
+      event.preventDefault();
+    });
+  });
+}

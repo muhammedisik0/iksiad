@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
   mountNewsCarousel();
   highlightHomePageNavEl();
   highlightFlag();
+  preventDefaultForImageCarouselLinks();
 });
 
 highlightNavElements();
